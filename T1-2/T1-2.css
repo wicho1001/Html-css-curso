@@ -1,0 +1,25 @@
+body{
+    font-family:Tahoma, sans-serif;
+}
+a:link {
+    text-decoration: none;
+    color: royalblue;
+
+}
+a:active {
+    text-decoration: none;
+    color: royalblue;
+}
+a:hover {
+    text-decoration: underline;
+   color:  royalblue;
+}
+a:visited {
+    text-decoration: none;
+    color: royalblue;
+}
+.imagen {
+    width: 75%;
+    height: 75%;
+    float: right;
+}

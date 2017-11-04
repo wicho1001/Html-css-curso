@@ -1,0 +1,47 @@
+.flex-contenedor{
+
+    display: flex;
+    
+}
+.logo{
+    margin: 5px;
+     flex-flow: column wrap;
+
+}
+.imagen-lateral{
+    float: right;
+}
+.tabla-de-contenido{
+    border: 2px solid black;
+    margin-right: 900px;
+    padding: 10px;
+}
+.idioma-seleccionado{
+    font-weight: bold;
+    font-size: 120%;
+}
+.idioma-seleccionado::before{
+    content: '>';
+}
+.seccion-lateral ul {
+list-style-type: none;
+}
+a:active,
+a:link,
+a:visited,
+a:hover{
+color: darkblue;
+text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.menu-principal{
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-right: 10px;
+}
+.contenido{
+    margin-left: 5px;
+}

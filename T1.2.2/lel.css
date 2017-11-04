@@ -1,0 +1,31 @@
+body{
+    margin: 0 auto;
+    width: 640px;
+}
+a:link,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: royalblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.imagen {
+    margin: 10px;
+    height: 50%;
+    width: 50%;
+    float: right;
+}
+.imagen img
+{
+    width: 100%;
+}
+.listadecontenido{
+    border: 2px solid;
+    margin: 10px 10px 10px 10px
+    
+}
