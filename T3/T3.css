@@ -1,0 +1,108 @@
+.principal{
+    display: flex;
+    flex-flow: column nowrap;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    background-image: url("assets/bg.jpg");
+        background-attachment: fixed; 
+    width: 100%;
+}
+.arriba{
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+  
+.derecha{
+    padding: 10px;
+    display: flex;
+    flex-flow: row  nowrap;
+    flex-basis: 1;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+.derecha h4{
+    padding: 10px;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.centro h3{
+    background-color: skyblue;
+    padding: 10px;
+}
+
+.medio{
+    background-color: ghostwhite;
+    display: flex;
+    flex-flow: row wrap;
+}
+.features{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 640px;
+    text-align: left;
+    
+}
+.featurestitulo{
+    padding-top: 15px;
+    text-align: center;
+}
+.columnas{
+    display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-between;
+     
+}
+.columnas p{
+    text-align: justify;
+    padding: 30px;
+}
+.columnas h2{
+    text-align: center;
+}
+.galeria {
+    background-color: white;
+    text-align: center;
+}
+.galeria-contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: stretch;
+}
+.listas{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.precio{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.precio li{
+  list-style-type: none;
+}
+.precio a{
+    border: 2px darkblue solid;
+    background-color: blue;
+    color: white;
+}
+.palomita ::before{
+    content: X_mark ;
+    padding: 30px;
+}
+
